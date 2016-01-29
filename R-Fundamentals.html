@@ -41,6 +41,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </head>
 
 <body>
+
 <div class="wrapper">
 
 <header>
@@ -91,6 +92,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </header>
       
 <section>
+
 <style type="text/css">
 .main-container {
   max-width: 940px;
@@ -194,6 +196,10 @@ jogging&lt;-read.csv(&quot;sample_data_jogging.csv&quot;)</code></pre>
 <pre class="r"><code>jogging[1,] # get 1st row
 jogging[,2] # get 2nd column
 jogging[2,3] # get observation in row 2, column 3</code></pre>
+<p>We can also use the dataset to create other datasets. For instance, if we have duplicate rows that we wish to remove from our dataset, we can use the function <code>duplicated</code>. By referencing only the rows from dataset[row,column] for duplicated values, we will keep all original columns in the dataset, but will remove duplicated rows.</p>
+<pre class="r"><code>jogging.nodups&lt;-jogging[!duplicated(jogging),]</code></pre>
+<p>Missing values are referenced as <code>NA</code> in R. If we had missing values in our dataset and wish to remove these rows, we can apply the function <code>complete.cases</code> in a similar fashion as we applied duplicated above.</p>
+<pre class="r"><code>jogging.nomiss&lt;-jogging[complete.cases(jogging),]</code></pre>
 <p><strong>Writing Data to an External File</strong><br />After we have done calculations and added new columns to our data frame, we might like to save it as a .csv or .txt file. In these situations we need to use <code>write.table()</code> or <code>write.csv()</code> specifying the data frame to be written and the file name (with path) to write to. For <code>write.table()</code> we also must specify the delimiter. R automatically adds a row id, which I don’t find particularly useful, so also include the option <code>row.names=FALSE</code> when saving to external files.</p>
 <pre class="r"><code>write.table(jogging,'jogging_new.txt', sep=&quot;\t&quot;,row.names=FALSE)
 write.csv(jogging,'jogging_new.csv',row.names=FALSE)</code></pre>
