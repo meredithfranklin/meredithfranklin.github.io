@@ -1,0 +1,21 @@
+---
+title: "R Tutorials"
+author: "Meredith Franklin"
+date: "21/10/2020"
+output: html_document
+---
+
+Through teaching statistics courses at USC over the past few years, I
+have amassed a significant amount of instructional R code, from
+introductory statistics to advanced spatial modeling.
+
+I am in the process of organizing all of this code into a set of
+tutorials and will be gradually publishing it through this site. You can
+see the table of contents on the left sidebar. Some of the links are
+empty -- this is a work in progress!
+
+I've written most of this site using
+[Markdown](https://help.github.com/articles/markdown-basics/) and
+[R Markdown](http://rmarkdown.rstudio.com/)
+(with [RStudio](https://www.rstudio.com/)),
+and am hosting it through [GitHub pages.](https://pages.github.com/)

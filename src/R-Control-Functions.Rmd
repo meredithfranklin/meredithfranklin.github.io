@@ -1,0 +1,65 @@
+---
+title: "R-Control-Structures-Functions"
+author: "Meredith Franklin"
+date: "21/10/2020"
+output: html_document
+---
+
+This page is still being created
+
+### Control Structures
+
+Control structures are fundamental to all programming and scripting
+languages. They allow control over the flow of how code is executed. The
+primary control structures in R are: `if`, `else`, `ifelse`, `for`,
+`while`.
+
+#### if, else and ifelse
+
+The general syntax for an if statement is
+
+```r
+if (condition is TRUE){
+  execute this code
+}
+```
+
+We can add an else condition to this
+
+```r
+if (condition is TRUE){
+  execute this code
+}
+else{
+  do this
+}
+```
+
+#### for loops
+
+The general syntax of for loops is
+
+```r
+for (index in vectorValues){
+  execute this code
+}
+```
+
+It is possible to have nested for loops
+
+#### while loops
+
+The general syntax for while loops is
+
+```r
+while (condition is TRUE){
+  execute this code
+}
+```
+
+Be careful to avoid infinite loops! Loops in R can be slow, and many
+tasks can be executed using the `apply` functions.
+
+#### apply, lapply, tapply, mapply
+
+### Writing Functions

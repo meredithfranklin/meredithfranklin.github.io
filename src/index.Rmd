@@ -1,0 +1,63 @@
+---
+title: "Meredith Franklin"
+author: "Meredith Franklin"
+date: "21/10/2020"
+output: html_document
+---
+
+Associate Professor\
+University of Southern California\
+Division of Biostatistics\
+2001 N Soto Street\
+Los Angeles, CA 90089
+
+Office: Soto-I Room 202A\
+Phone: (323) 442-2703\
+Email: <meredith.franklin@usc.edu>
+
+About me: I am an associate professor of biostatistics at USC.
+I conduct research in spatial statistics,
+primarily applied to environmental data.
+I teach courses in introductory statistics, inference,
+data analysis, and spatial statistics.
+I code in [R](http://www.r-project.org) almost exclusively,
+and while the computing aspect of my research
+is primarily a solo endeavor,
+I like to keep my R code version controlled with git.
+
+### Research
+
+My research interests are in environmental statistics and epidemiology
+with specific focus on the application of spatial statistical methods
+to air pollution and climate data. Please go
+[here](http://meredithfranklin.github.io/research.html)
+for more details.
+
+### Teaching
+
+I am the director of MS programs in Biostatistics and Epidemiology
+in the Keck School of Medicine of USC, Department of Preventive Medicine.
+Information regarding our programs and ways to apply can be found
+[here](http://keck.usc.edu/preventive-medicine/training-education/masters-programs/biostatistics/).
+
+We recently launched a program in Health Data Science,
+for which I am also the director. Check it out
+[here](https://preventivemedicine.usc.edu/education/graduate-programs/ms-public-health-data-science/).
+
+Courses: Currently I teach Data Analysis (PM511a),
+Mathematical Statistics (PM522b),
+Spatial Statistics (PM569).
+
+- Mathematical Statistics (Inference) course material
+  [(PM 522b)](https://github.com/meredithfranklin/courses/tree/master/Inference).
+- Spatial Statistics course material
+  [(PM 569)](https://github.com/meredithfranklin/courses/tree/master/Spatial).
+- I've started posting R tutorial pages!
+  [Check it out](/R_tutorial.html).
+
+### Contact
+
+You can find me on
+[LinkedIn](https://www.linkedin.com/in/meredithfranklin),
+github [@meredithfranklin](https://github.com/meredithfranklin), and
+[Google Scholar](https://scholar.google.com/citations?user=kIHe4WAAAAAJ).
